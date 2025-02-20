@@ -43,12 +43,16 @@
   - `isSuperlassOf(derived): Boolean` - retorna verdadeiro se a classe é a mesma ou é uma superclasse de _derived_.
 - `KCallable<R>`: representa uma entidade _callable_, como uma função ou uma propriedade.
   - Subtipos:
-    - `KProperty`
-    - `KFunction`
+    - `KProperty`: propriedade.
+    - `KFunction`: função.
   - Algumas propriedades:
     - `name: String` - nome do _callable_ conforme o código-fonte.
-    - `parameters: List<KParameter>` - lista de referências aos parâmetros deste _callable_.
+    - `parameters: List<KParameter>` - lista de referências aos parâmetros deste _callable_ (veremos `KParameters` depis).
     - `returnType: KType` - o tipo de retorno do _callable_. `KType` representa um tipo.
+  - Função `call`: chama o membro _callable_ com uma lista de argumentos e retorna o resultado.
+    - No caso de o membro ser uma propriedade (`KProperty`): o primeiro parâmetro corresponde ao objeto.
+    - No caso de o membro ser uma função (`KFunction`): o primeiro parâmetro corresponde ao objeto e pode ser seguido de outros parâmetros correspondentes aos parâmetros da função.
+      - Quantidade e tipo de cada parâmetro devem condizer com os tipos declaradas na função.
 
 ![Principais classificadores da API de Reflexão de Kotlin](https://yuml.me/isel/kotlin-reflect.svg)
 
