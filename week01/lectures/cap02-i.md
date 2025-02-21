@@ -50,8 +50,8 @@
     - `parameters: List<KParameter>` - lista de referências aos parâmetros deste _callable_ (veremos `KParameters` depis).
     - `returnType: KType` - o tipo de retorno do _callable_. `KType` representa um tipo.
   - Função `call`: chama o membro _callable_ com uma lista de argumentos e retorna o resultado.
-    - No caso de o membro ser uma propriedade (`KProperty`): o primeiro parâmetro corresponde ao objeto.
-    - No caso de o membro ser uma função (`KFunction`): o primeiro parâmetro corresponde ao objeto e pode ser seguido de outros parâmetros correspondentes aos parâmetros da função.
+    - Se é desejado obter valor ou chamar função de um objeto, o primeiro parâmetro (_receiver_) deve ser o objeto.
+    - No caso de o membro ser uma função (`KFunction`):
       - Quantidade e tipo de cada parâmetro devem condizer com os tipos declaradas na função.
 
 ![Principais classificadores da API de Reflexão de Kotlin](https://yuml.me/isel/kotlin-reflect.svg)
