@@ -47,7 +47,7 @@
     - `KFunction`: função.
   - Algumas propriedades:
     - `name: String` - nome do _callable_ conforme o código-fonte.
-    - `parameters: List<KParameter>` - lista de referências aos parâmetros deste _callable_ (veremos `KParameters` depis).
+    - `parameters: List<KParameter>` - lista de referências aos parâmetros deste _callable_ (veremos `KParameters` depois).
     - `returnType: KType` - o tipo de retorno do _callable_. `KType` representa um tipo.
   - Função `call`: chama o membro _callable_ com uma lista de argumentos e retorna o resultado.
     - Se é desejado obter valor ou chamar função de um objeto, o primeiro parâmetro (_receiver_) deve ser o objeto.
