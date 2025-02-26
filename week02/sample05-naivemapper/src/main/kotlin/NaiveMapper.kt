@@ -111,7 +111,6 @@ fun <T : Any> Any.mapToProps(dest: KClass<T>) : T {
             /*
             * 3rd - Copy the property value from the Receiver to the target (i.e. object 1).
             */
-            println("----> " + destProp)
             if(destProp != null && destProp is KMutableProperty<*>) {
                 val srcValue = srcProp.call(this)
                 destProp.setter.call(target, srcValue)
