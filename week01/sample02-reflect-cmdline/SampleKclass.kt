@@ -22,7 +22,6 @@ fun main() {
     val memberFuncs = lampClass.memberFunctions // Returns a collection of KCallable
     memberFuncs.forEach { println("  " + it.name) }
 
-
     println("Superclasses:")
     val superclasses = lampClass.allSuperclasses
     superclasses.forEach { println("  " + it.simpleName) }
@@ -35,24 +34,34 @@ fun main() {
         println(" name:  " + it.name);
         println(" value: " + it.call(lamp1))
     }
+
     println("lamp1 object member functions:")
     //val lampMemberFuncs = lamp1::class.declaredMemberFunctions
     val lampMemberFuncs = lamp1::class.memberFunctions
     lampMemberFuncs.forEach {
         println(" name:  " + it.name);
-        println(" parameters (size: ${it.parameters.size}):")
-        it.parameters.forEach { println("   ${it.name} ${it.kind} ${it.type}") }
-        if (it.parameters.size <= 1) // Not the best way to do that
-            println(" value: " + it.call(lamp1))
-        if (it.parameters.size == 2) // Not the best way to do that
-            println(" value: " + it.call(lamp1, null))
     }
 
+    println("lamp1 - turnOn call:")
+    lampMemberFuncs
+        .first { it.name == "turnOn" }
+        .also { println(" Return: ${it.call(lamp1)}") }
+
+    println("lamp1 - setState call:")
+    lampMemberFuncs
+        .first { it.name == "setState" }
+        .also { println(" Return: ${it.call(lamp1, false)}") }
+
+    println("lamp1 - getState call:")
+    lampMemberFuncs
+        .first { it.name == "getState" }
+        .also { println(" Return: ${it.call(lamp1)}") }
+
     val lamp2 = lampClass.createInstance() // Create an object Lamp without defined constructor
-    // Access properties and methods (class and superclass) dynamically
+    // Access properties (class and superclass) dynamically
     println("lamp2 object member properties:")
-    val lampMemberProps2 = lamp2::class.memberProperties
-    lampMemberProps2.forEach {
+    val lamp2MemberProps = lamp2::class.memberProperties
+    lamp2MemberProps.forEach {
         println(" name:  " + it.name);
         println(" value: " + it.call(lamp2))
     }

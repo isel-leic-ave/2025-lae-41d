@@ -19,4 +19,9 @@ class Lamp {
     fun getState(): Boolean {
         return isOn
     }
+
+    // member function
+    fun setState(valueState: Boolean) {
+        isOn = valueState
+    }
 }
