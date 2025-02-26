@@ -35,7 +35,7 @@ fun main() {
     /**
      * NoSuchElementException: Collection contains no element matching the predicate.
      */
-    //checkCountry("ISEL")
+    checkCountry("ISEL")
 
 }
 
