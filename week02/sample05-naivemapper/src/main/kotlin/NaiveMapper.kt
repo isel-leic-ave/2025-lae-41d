@@ -8,7 +8,7 @@ import kotlin.reflect.full.createInstance
 import kotlin.reflect.full.memberProperties
 
 /**
- * 3rd version
+ * 2nd (2.1) Version of NaiveMapper with a NaiveMapper Class definition
  */
 class NaiveMapper<T : Any>(val srcType: KClass<*>, val destType:KClass<T>) {
     /**
@@ -70,6 +70,9 @@ fun <T : Any> Any.mapTo(dest: KClass<T>) : T {
                     .any { it.name == param.name && it.returnType == param.type}
                 }
         }
+    /**
+     * 2nd - look for matching properties with constructor parameters
+     */
     val args: Map<KParameter, Any?> = destCtor
         .parameters
         .associateWith { param -> this::class
@@ -78,6 +81,7 @@ fun <T : Any> Any.mapTo(dest: KClass<T>) : T {
             ?.call(this)
         }
         .filter { it.value != null }
+    args.forEach { (k, v) -> println("${k} -> $v") }
     /**
      * 3rd create the instance of dest via constructor using
      * the callBy<Map<KParameter, Any>>
