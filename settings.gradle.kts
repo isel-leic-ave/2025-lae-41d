@@ -7,4 +7,4 @@ rootProject.name = "2025-lae-41d"
 include("week01:sample03-reflect")
 include("week02:sample04-logger")
 include("week02:sample05-naivemapper")
-findProject(":week02:sample05-naivemapper")?.name = "sample05-naivemapper"
+include("jsonoy")
