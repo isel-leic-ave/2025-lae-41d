@@ -84,10 +84,6 @@
       public static void log(Appendable out, Object obj) throws Exception {
           Class<?> clazz = obj.getClass();
           out.append("Object of Type " + clazz.getSimpleName() + lineSeparator());
-          for (Field f : clazz.getDeclaredFields()) {
-              f.setAccessible(true);
-              System.out.println(f.getName() + ": " + f.get(obj));
-          }
           for (Method mth : clazz.getDeclaredMethods()) {
               if (isGetter(mth)) {
                   String propName = mth.getName().replaceFirst("^get", "");
@@ -146,16 +142,42 @@
 
 ### Implementação I
 
+- Implementa a função de extensão `fun <T : Any> Any.mapToProps(dest: KClass<T>) : T`
 - Através do uso de propriedades mutáveis, _i.e._ `KMutableProperty`.
 - Consideram-se as seguintes restrições:
   1. O tipo de destino deve ter um construtor sem parâmetros (_i.e._, vamos usar `createInstance()`);
   2. As propriedades de destino são mutáveis.
   3. As propriedades de origem e destino partilham o mesmo nome e tipo.
-
 - Implementação disponível em [sample05-naivemapper](../sample05-naivemapper)
+  - Corresponde ao terceiro caso.
+- Note o uso do `setter`: é usado para alterar o valor de uma propriedade existente e mutável.
+  ```kotlin
+  // ...
+  if(destProp != null && destProp is KMutableProperty<*>) {
+    val srcValue = srcProp.call(this)
+    destProp.setter.call(target, srcValue)
+  }
+  // ...
+  ```
 
 ### Implementação II
 
+- Implementa a função de extensão `fun <T : Any> Any.mapTo(dest: KClass<T>) : T`
 - Através do uso de parâmetros construtores.
-  - Elimina as restrições 1 e 2 da Implementação I. 
-  - Chama construtor via: `fun call(vararg args: Any?): R`
+  - Elimina as restrições 1 e 2 da Implementação I, pois agora cria-se o objeto a partir do construtor (não usa _createInstance_).
+    - Logo, o tipo de destino pode ter construtores com parâmetros e as propriedades podem ser imutáveis.
+  - Chama construtor via função _callBy_: `fun callBy(args: Map<KParameter, Any?>): R`
+- `fun callBy(args: Map<KParameter, Any?>): R`
+  - chama o _callable_ (no caso, o construtor) com um mapeamento dos parâmetros para os seus valores.
+    - No exemplo, esse mapeamento precisa ser gerado.
+    - Foram usados apenas os parâmetros mandatórios (não opcionais).
+  - Exemplo de um mapeamento para as classes de exemplo (`NaiveMapperTest.pt`) do domínio _Artist_:
+    ```text
+    parameter #0 name ... -> Muse
+    parameter #2 kind ... -> Band
+    ```
+- Implementação também disponível em [sample05-naivemapper](../sample05-naivemapper)
+  - Corresponde ao segundo caso.
+  - O terceiro caso é um exemplo similar, mas com a declaração da classe _NaiveMapper_.
+    - Neste caso, o tipo de origem e de destino são parâmetros construtores desta classe.
+    - Os argumentos do _callby_ não são recalculados para um mesmo _NaiveMapper_.
