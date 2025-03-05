@@ -4,7 +4,7 @@
 
 - As anotações em Kotlin e Java são uma forma de adicionar metadados ao código-fonte.
 - Elas são utilizadas para fornecer informações adicionais que podem ser processadas em tempo de compilação ou em tempo de execução por _frameworks_, bibliotecas ou ferramentas de análise.
-    - _e.g._, JUnit,
+    - _e.g._, JUnit (testes), Spring (_framework_ para aplicações Java Enterprise).
 - Anotações são fortemente tipadas.
 - Anotações de Kotlin são compatíveis com anotações do Java.
     - Cada anotação é uma instância de um tipo que herda indiretamente de `java.lang.annotation.Annotation`.
