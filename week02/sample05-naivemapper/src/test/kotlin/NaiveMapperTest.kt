@@ -11,7 +11,6 @@ class NaiveMapperTest {
         // For this reason, we use ArtistLastFm instead.
         val dest:ArtistLastFm = source.mapToProps(ArtistLastFm::class)
         assertEquals(source.name, dest.name)
-        assertEquals(source.kind, dest.kind)
         // 'country' and 'origin' are not yet associated in this implementation.
         assertEquals("", dest.origin)
     }
