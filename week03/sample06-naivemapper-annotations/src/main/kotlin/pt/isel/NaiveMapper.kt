@@ -53,6 +53,7 @@ class NaiveMapper<T : Any>(val srcType: KClass<*>, val destType:KClass<T>) {
      */
     fun mapFrom(src: Any) : T {
         val args: Map<KParameter, Any?> = args
+            //.also { it.forEach { pair -> println("<dest> ${pair.key.name}: <src> ${pair.value?.name}") } } // Show the args map
             .map { pair -> pair.key to pair.value?.call(src) }
             .associate { it }
         return destCtor.callBy(args)
