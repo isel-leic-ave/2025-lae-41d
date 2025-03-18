@@ -24,6 +24,7 @@ class Constants {
     }
 
     public static void main(String[] args) throws InterruptedException {
+        Thread.sleep(3000);
         Constants c = new Constants();
         System.out.println(c.created1);
         Thread.sleep(3000);
