@@ -5,16 +5,16 @@
 - _Boxing_: processo de copiar um valor de um tipo primitivo para um objeto de tipo de referência.
 - A seguir, a relação de um tipo primitivo Java para a sua classe Wrapper correspondente. 
 
-Tipo primitivo    | Classe wrapper
-------------------|--------------
-boolean           | Boolean
-byte              | Byte
-char              | Character
-float             | Float
-int               | Integer
-long              | Long
-short             | Short
-double            | Double
+| Tipo primitivo | Classe wrapper |
+|----------------|----------------|
+| boolean        | Boolean        |
+| byte           | Byte           |
+| char           | Character      |
+| float          | Float          |
+| int            | Integer        |
+| long           | Long           |
+| short          | Short          |
+| double         | Double         |
 
 - Cada classe wrapper tem um método explícito para fazer _boxing_.
   - `static Boolean valueOf(boolean p)`
@@ -175,5 +175,5 @@ double            | Double
   - `AppKt$main$ca$1.class`
   - `AppKt$main$ci$1.class`
   - É similar a Java, mas também inclui o nome da função e das variáveis (constantes, no caso).
-- Em [week05/sample16-anonymous-types/java/](../sample16-anonymous-types/java/) há outro exemplo de classes anónimas em Java.
-- Em [week05/sample16-anonymous-types/kotlin/](../sample16-anonymous-types/kotlin/) há o mesmo exemplo de classes anónimas em Kotlin.
+- Em [week05/sample16-anonymous-types/java/](../sample16-anonymous-types/java) há outro exemplo de classes anónimas em Java.
+- Em [week05/sample16-anonymous-types/kotlin/](../sample16-anonymous-types/kotlin) há o mesmo exemplo de classes anónimas em Kotlin.
