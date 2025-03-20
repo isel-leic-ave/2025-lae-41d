@@ -175,3 +175,5 @@ double            | Double
   - `AppKt$main$ca$1.class`
   - `AppKt$main$ci$1.class`
   - É similar a Java, mas também inclui o nome da função e das variáveis (constantes, no caso).
+- Em [week05/sample16-anonymous-types/java/](../sample16-anonymous-types/java/) há outro exemplo de classes anónimas em Java.
+- Em [week05/sample16-anonymous-types/kotlin/](../sample16-anonymous-types/kotlin/) há o mesmo exemplo de classes anónimas em Kotlin.
