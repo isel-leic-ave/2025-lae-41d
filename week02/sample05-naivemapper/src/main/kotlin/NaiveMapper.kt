@@ -88,37 +88,3 @@ fun <T : Any> Any.mapTo(dest: KClass<T>) : T {
      */
     return destCtor.callBy(args)
 }
-
-/**
- * 1st Version of NaiveMapper
- * Copy properties to mutable properties in dest.
- * And, dest must have a parameterless constructor
- */
-fun <T : Any> Any.mapToProps(dest: KClass<T>) : T {
-    /**
-     * 1st - Create instance of dest KClass (i.e. target)
-     * dest should have a parameterless constructor or with
-     * all parameters optional.
-     * Otherwise, it will throw an Exception.
-     */
-    val target: T = dest.createInstance()
-    /**
-     * 2nd - Look for matching properties (i.e. same name and type)
-     * between the source (i.e. Receiver) and the dest type.
-     */
-    this::class
-        .memberProperties
-        .forEach { srcProp ->
-            val destProp = dest.memberProperties.firstOrNull {
-                it.name == srcProp.name && it.returnType == srcProp.returnType
-            }
-            /*
-            * 3rd - Copy the property value from the Receiver to the target (i.e. object 1).
-            */
-            if(destProp != null && destProp is KMutableProperty<*>) {
-                val srcValue = srcProp.call(this)
-                destProp.setter.call(target, srcValue)
-            }
-        }
-    return target
-}
