@@ -304,7 +304,7 @@ Constant pool:
 - Exemplo de códigos com base no ficheiro [week08/sample21-bytecode/App.kt](../sample21-bytecode/App.kt):
   - `javap -v -p A.class`: método `sum`
 
-| Operação | Pilha                    | Descrição                                                                 |
+| Operação | _Evaluation Stack_       | Descrição                                                                 |
 |----------|--------------------------|---------------------------------------------------------------------------|
 | fload_1  | `[] → [val_x]`           | Empilha valor float do slot 1                                             |
 | fload_2  | `[] → [val_y]`           | Empilha valor float do slot 2                                             |
@@ -313,7 +313,7 @@ Constant pool:
 
   - `javap -v -p A.class`: método construtor
 
-| Operação         | Pilha              | Descrição                                                                         |
+| Operação         | _Evaluation Stack_ | Descrição                                                                         |
 |------------------|--------------------|-----------------------------------------------------------------------------------|
 | aload_0          | `[] → [objRef]`    | Empilha a referência do objeto do slot 0                                          |
 | invokespecial #8 | `[objRef] → [res]` | Chama o método #8 (`<init>`) com o objRef e retorna o resultado (`void`, no caso) |
