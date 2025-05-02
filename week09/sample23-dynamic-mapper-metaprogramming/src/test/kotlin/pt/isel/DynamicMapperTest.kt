@@ -3,10 +3,9 @@ package pt.isel
 import ArtistSpotify2ArtistBaseline
 import org.junit.jupiter.api.Test
 import kotlin.test.assertEquals
-import kotlin.test.assertFalse
 
 class NaiveMapperTest {
-    val source = ArtistSpotify("Pearl Jam", "Band", 1,
+    private val source = ArtistSpotify("Pearl Jam", "Band", 1,
         Country("USA", "English")
         /*listOf(
             Song("Jeremy", 1991),
@@ -15,7 +14,7 @@ class NaiveMapperTest {
         )*/
     )
     @Test
-    fun GenBytecodeJavaBaseline() {
+    fun genBytecodeJavaBaselines() {
         val m = ArtistSpotify2ArtistBaseline()
         val dest = m.mapFrom(source)
         assertEquals(source.name, dest.name)

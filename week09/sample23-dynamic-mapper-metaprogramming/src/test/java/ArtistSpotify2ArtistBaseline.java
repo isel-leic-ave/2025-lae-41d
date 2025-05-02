@@ -10,7 +10,7 @@ import static java.util.Map.entry;
 
 public class ArtistSpotify2ArtistBaseline implements Mapper<ArtistSpotify, Artist> {
     private static Map< Pair< Class<?>, Class<?> >, Mapper<?, ?> > mappers = Map.ofEntries(
-            entry(new Pair<>(Country.class, State.class), new Country2State())
+            entry(new Pair<>(Country.class, State.class), new Country2StateBaseline())
     );
 
     private static <T, R> Mapper<T, R> loadMapper(Class<T> srcType, Class<R> destType) {
@@ -41,7 +41,7 @@ public class ArtistSpotify2ArtistBaseline implements Mapper<ArtistSpotify, Artis
     }
 }
 
-class Country2State implements Mapper<Country, State> {
+class Country2StateBaseline implements Mapper<Country, State> {
 
     @Override
     public State mapFrom(Country src) {
