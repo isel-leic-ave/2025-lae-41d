@@ -10,7 +10,7 @@
    - _Channel_ (classe com Enum);
    - _Message_ (classe com associação).
 
-- Sugestão de implementação dos baselines, implementação da geração de código e testes:
+Sugestão de implementação dos baselines, implementação da geração de código e testes:
 
 1) Criar baseline simples que herda da classe _RepositoryReflect_ e implementa seu construtor.
    1) Testar o baseline (incluir a criação do baseline em todos os testes);
