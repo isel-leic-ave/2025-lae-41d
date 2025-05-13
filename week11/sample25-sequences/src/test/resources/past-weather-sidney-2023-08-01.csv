@@ -1,0 +1,72 @@
+#The CSV format is in following way:-
+#The day information is available in following format:-
+#date,maxtempC,maxtempF,mintempC,mintempF,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination
+#
+#Hourly information follows below the day in the following way:-
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,precipInches,humidity,visibilityKm,visibilityMiles,pressureMB,pressureInches,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+#
+Not Available
+2023-08-01,27,80,15,60,06:34 AM,08:51 PM,09:24 PM,05:57 AM,Full Moon,100
+2023-08-01,24,27,80,3,4,90,E,116,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,69,10,6,1021,30,15,22,71,14,58,21,70,6,10,21,70
+2023-08-02,28,82,15,59,06:35 AM,08:50 PM,09:59 PM,07:19 AM,Full Moon,100
+2023-08-02,24,28,82,6,9,137,SE,119,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,72,10,6,1021,30,11,22,72,16,60,21,71,10,17,21,71
+2023-08-03,29,83,17,62,06:36 AM,08:49 PM,10:28 PM,08:40 AM,Waxing Gibbous,86
+2023-08-03,24,29,83,6,9,188,S,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,76,9,5,1014,30,33,24,75,16,61,23,73,10,16,24,75
+2023-08-04,30,86,17,62,06:37 AM,08:48 PM,10:54 PM,09:58 AM,Waning Gibbous,78
+2023-08-04,24,30,86,4,7,254,WSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,79,9,5,1013,30,38,25,77,19,66,24,74,9,14,25,77
+2023-08-05,27,81,18,64,06:38 AM,08:47 PM,11:19 PM,11:13 AM,Waning Gibbous,71
+2023-08-05,24,27,81,8,12,112,ESE,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,78,10,6,1016,30,42,24,74,17,63,22,72,15,24,24,74
+2023-08-06,25,76,19,66,06:39 AM,08:45 PM,11:44 PM,12:25 PM,Waning Gibbous,64
+2023-08-06,24,25,76,11,18,167,SSE,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,4.9,0.2,88,9,5,1010,30,83,23,74,19,66,22,71,20,32,22,71
+2023-08-07,24,75,18,64,06:40 AM,08:44 PM,No moonrise,01:37 PM,Waning Gibbous,57
+2023-08-07,24,24,75,7,11,275,W,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,12.3,0.5,92,6,3,1008,30,87,21,69,18,65,20,68,14,22,20,68
+2023-08-08,27,81,15,59,06:41 AM,08:43 PM,12:10 AM,02:47 PM,Last Quarter,49
+2023-08-08,24,27,81,7,11,265,W,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.4,0.0,80,7,4,1012,30,58,21,70,16,61,20,69,13,21,20,69
+2023-08-09,27,81,15,59,06:42 AM,08:42 PM,12:40 AM,03:55 PM,Last Quarter,42
+2023-08-09,24,27,81,7,11,229,SW,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,35.6,1.4,82,10,6,1011,30,59,22,72,18,64,21,70,13,20,21,70
+2023-08-10,27,80,18,65,06:43 AM,08:40 PM,01:16 AM,05:00 PM,Last Quarter,35
+2023-08-10,24,27,80,8,13,264,W,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,9.9,0.4,86,8,5,1007,30,66,22,72,18,64,21,71,13,21,21,71
+2023-08-11,27,81,17,62,06:44 AM,08:39 PM,01:57 AM,06:00 PM,Last Quarter,28
+2023-08-11,24,27,81,7,12,227,SW,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,2.3,0.1,81,10,6,1011,30,60,23,74,19,66,22,72,13,21,23,74
+2023-08-12,28,82,19,67,06:45 AM,08:38 PM,02:46 AM,06:52 PM,Waning Crescent,20
+2023-08-12,24,28,82,11,17,249,WSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,10.6,0.4,86,10,5,1011,30,61,25,77,20,69,23,74,19,31,25,77
+2023-08-13,29,85,17,62,06:46 AM,08:37 PM,03:42 AM,07:35 PM,Waning Crescent,13
+2023-08-13,24,29,85,5,8,192,SSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,77,10,6,1014,30,43,24,75,18,64,23,73,10,16,24,75
+2023-08-14,25,77,19,67,06:46 AM,08:35 PM,04:42 AM,08:11 PM,Waning Crescent,6
+2023-08-14,24,25,77,6,10,148,SSE,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,11.0,0.4,90,8,5,1012,30,88,22,72,19,66,21,70,11,18,21,70
+2023-08-15,21,70,16,61,06:47 AM,08:34 PM,05:45 AM,08:41 PM,New Moon,0
+2023-08-15,24,21,70,12,19,283,WNW,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,2.8,0.1,94,9,5,1011,30,82,19,66,16,61,19,65,21,34,19,65
+2023-08-16,25,76,15,58,06:48 AM,08:32 PM,06:47 AM,09:06 PM,New Moon,0
+2023-08-16,24,25,76,5,9,190,S,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,85,7,4,1015,30,65,20,68,16,61,19,67,8,13,19,67
+2023-08-17,27,80,15,60,06:49 AM,08:31 PM,07:48 AM,09:28 PM,Waxing Crescent,1
+2023-08-17,24,27,80,11,17,225,SW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,14.7,0.6,82,10,6,1010,30,36,21,69,16,61,20,68,21,33,20,68
+2023-08-18,23,73,13,55,06:50 AM,08:30 PM,08:48 AM,09:48 PM,Waxing Crescent,9
+2023-08-18,24,23,73,8,13,310,NW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,80,9,5,1015,30,32,18,64,13,55,17,63,15,25,17,63
+2023-08-19,26,78,12,53,06:51 AM,08:28 PM,09:48 AM,10:08 PM,Waxing Crescent,16
+2023-08-19,24,26,78,4,6,196,SSW,116,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,72,10,6,1018,30,13,19,67,13,56,19,66,8,12,19,66
+2023-08-20,30,86,16,60,06:52 AM,08:27 PM,10:48 AM,10:28 PM,Waxing Crescent,23
+2023-08-20,24,30,86,7,11,199,SSW,119,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,69,10,6,1018,30,17,24,76,17,62,23,74,11,18,24,76
+2023-08-21,31,87,21,69,06:53 AM,08:25 PM,11:50 AM,10:49 PM,Waxing Crescent,30
+2023-08-21,24,31,87,5,9,154,SSE,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,78,10,6,1020,30,29,28,82,21,70,25,78,10,16,28,82
+2023-08-22,28,83,18,64,06:54 AM,08:24 PM,12:54 PM,11:15 PM,Waxing Crescent,38
+2023-08-22,24,28,83,6,10,94,E,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,77,10,6,1021,30,30,24,76,18,65,23,73,13,20,24,76
+2023-08-23,31,89,18,64,06:55 AM,08:22 PM,02:02 PM,11:45 PM,First Quarter,45
+2023-08-23,24,31,89,9,14,155,SSE,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,3.4,0.1,76,10,6,1017,30,32,26,78,19,66,24,75,16,26,26,78
+2023-08-24,33,91,22,72,06:56 AM,08:21 PM,03:12 PM,No moonset,First Quarter,52
+2023-08-24,24,33,91,11,18,235,SW,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,31.1,1.2,73,10,6,1012,30,28,30,87,22,72,27,81,22,35,30,87
+2023-08-25,31,87,21,71,06:57 AM,08:19 PM,04:22 PM,12:23 AM,First Quarter,59
+2023-08-25,24,31,87,7,11,171,S,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,68,10,6,1011,30,32,29,84,20,69,26,79,14,22,29,84
+2023-08-26,29,83,19,66,06:58 AM,08:18 PM,05:28 PM,01:12 AM,Waxing Gibbous,67
+2023-08-26,24,29,83,6,10,94,E,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.7,0.0,81,9,5,1014,30,61,25,77,20,67,23,74,11,18,25,77
+2023-08-27,25,77,14,57,06:59 AM,08:16 PM,06:26 PM,02:14 AM,Waxing Gibbous,74
+2023-08-27,24,25,77,8,14,47,NE,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,84,8,4,1015,30,58,20,67,16,60,19,66,15,25,19,66
+2023-08-28,24,75,11,52,07:00 AM,08:15 PM,07:14 PM,03:28 AM,Waxing Gibbous,81
+2023-08-28,24,24,75,9,14,41,NE,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,79,10,6,1016,30,14,18,64,13,55,17,62,15,23,17,62
+2023-08-29,27,80,11,51,07:01 AM,08:13 PM,07:53 PM,04:48 AM,Waxing Gibbous,89
+2023-08-29,24,27,80,5,8,196,SSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.2,0.0,65,10,6,1012,30,17,19,66,11,52,18,65,9,14,18,65
+2023-08-30,22,72,12,54,07:02 AM,08:12 PM,08:25 PM,06:10 AM,Waxing Gibbous,96
+2023-08-30,24,22,72,10,17,155,SSE,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,82,10,6,1015,30,42,17,62,12,54,16,61,17,27,16,61
+2023-08-31,24,76,9,49,07:03 AM,08:10 PM,08:53 PM,07:31 AM,Full Moon,100
+2023-08-31,24,24,76,9,14,52,NE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,76,7,4,1018,30,3,16,61,11,52,15,59,16,25,15,59
+2023-09-01,28,83,11,51,07:04 AM,08:09 PM,09:18 PM,08:48 AM,Waxing Gibbous,85
+2023-09-01,24,28,83,6,9,100,E,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,70,10,6,1021,30,0,19,66,12,53,18,64,11,17,18,64

@@ -1,0 +1,72 @@
+#The CSV format is in following way:-
+#The day information is available in following format:-
+#date,maxtempC,maxtempF,mintempC,mintempF,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination
+#
+#Hourly information follows below the day in the following way:-
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,precipInches,humidity,visibilityKm,visibilityMiles,pressureMB,pressureInches,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+#
+Not Available
+2025-03-01,17,62,12,53,07:09 AM,06:29 PM,07:56 AM,08:30 PM,Waxing Crescent,8
+2025-03-01,24,17,62,7,12,77,ENE,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,8.4,0.3,74,10,5,1014,30,74,13,56,9,48,12,54,13,21,12,54
+2025-03-02,12,54,9,48,07:07 AM,06:30 PM,08:22 AM,09:46 PM,Waxing Crescent,15
+2025-03-02,24,12,54,12,20,50,NE,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,1.1,0.0,76,10,6,1015,30,76,10,51,6,44,8,46,20,33,8,46
+2025-03-03,14,58,9,48,07:06 AM,06:31 PM,08:50 AM,11:02 PM,Waxing Crescent,23
+2025-03-03,24,14,58,8,13,75,ENE,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.4,0.0,84,9,5,1013,30,92,11,53,9,48,10,50,13,21,10,50
+2025-03-04,17,63,8,47,07:04 AM,06:32 PM,09:22 AM,No moonset,Waxing Crescent,30
+2025-03-04,24,17,63,8,12,56,ENE,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,1.2,0.0,86,8,5,1012,30,74,12,54,10,50,11,52,14,22,11,52
+2025-03-05,15,59,11,52,07:03 AM,06:33 PM,09:59 AM,12:19 AM,Waxing Crescent,37
+2025-03-05,24,15,59,8,12,59,ENE,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,2.8,0.1,93,8,4,1012,30,85,12,54,11,52,11,52,14,22,11,52
+2025-03-06,17,62,12,53,07:01 AM,06:35 PM,10:45 AM,01:34 AM,First Quarter,44
+2025-03-06,24,17,62,5,9,161,SSE,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,7.9,0.3,86,10,5,1011,30,66,14,57,11,52,13,56,10,15,13,56
+2025-03-07,14,58,12,53,07:00 AM,06:36 PM,11:39 AM,02:43 AM,First Quarter,52
+2025-03-07,24,14,58,14,22,180,S,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,16.7,0.7,85,10,6,1005,30,83,13,55,10,50,11,52,27,44,11,52
+2025-03-08,12,53,9,49,06:58 AM,06:37 PM,12:41 PM,03:43 AM,First Quarter,59
+2025-03-08,24,12,53,14,23,223,SW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,26.8,1.1,79,9,5,995,29,87,11,51,7,45,8,46,28,44,8,46
+2025-03-09,13,56,10,50,06:57 AM,06:38 PM,01:48 PM,04:32 AM,Waxing Gibbous,66
+2025-03-09,24,13,56,11,17,226,SW,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,7.2,0.3,71,9,5,997,29,80,12,53,7,44,10,49,21,34,10,49
+2025-03-10,15,58,11,52,06:55 AM,06:39 PM,02:56 PM,05:12 AM,Waxing Gibbous,73
+2025-03-10,24,15,58,15,24,237,WSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,17.6,0.7,86,10,6,997,29,85,13,55,10,51,11,51,28,45,11,51
+2025-03-11,15,60,11,52,06:54 AM,06:40 PM,04:02 PM,05:44 AM,Waxing Gibbous,81
+2025-03-11,24,15,60,14,22,287,WNW,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,4.6,0.2,81,10,6,1004,30,63,13,56,10,50,12,53,25,41,12,53
+2025-03-12,14,57,11,51,06:52 AM,06:41 PM,05:06 PM,06:10 AM,Waxing Gibbous,88
+2025-03-12,24,14,57,5,8,235,SW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,5.5,0.2,84,10,6,1006,30,62,12,54,9,49,12,53,11,17,12,53
+2025-03-13,14,57,10,50,06:51 AM,06:42 PM,06:07 PM,06:33 AM,Waxing Gibbous,95
+2025-03-13,24,14,57,6,9,179,S,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,4.9,0.2,83,9,5,996,29,64,11,53,9,48,11,51,12,19,11,51
+2025-03-14,14,56,9,48,06:49 AM,06:43 PM,07:07 PM,06:54 AM,Full Moon,100
+2025-03-14,24,14,56,11,17,341,NNW,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,1.0,0.0,70,10,6,1003,30,36,11,52,5,42,9,48,18,30,9,48
+2025-03-15,14,58,9,48,06:47 AM,06:44 PM,08:06 PM,07:14 AM,Full Moon,100
+2025-03-15,24,14,58,8,13,284,WNW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,5.5,0.2,66,10,6,1015,30,69,11,53,5,42,10,50,14,23,10,50
+2025-03-16,15,60,9,49,06:46 AM,06:45 PM,09:06 PM,07:35 AM,Waxing Gibbous,83
+2025-03-16,24,15,60,8,13,222,SW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,9.5,0.4,80,8,5,1015,30,60,12,54,8,47,11,51,15,24,11,51
+2025-03-17,15,59,11,52,06:44 AM,06:46 PM,10:06 PM,07:57 AM,Waning Gibbous,76
+2025-03-17,24,15,59,9,14,147,SSE,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,5.6,0.2,87,9,5,1007,30,88,13,55,10,51,12,53,15,24,12,53
+2025-03-18,16,60,10,50,06:43 AM,06:47 PM,11:08 PM,08:21 AM,Waning Gibbous,68
+2025-03-18,24,16,60,8,12,215,SW,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,1.0,0.0,84,9,5,1010,30,69,13,55,10,50,12,54,15,24,12,54
+2025-03-19,16,61,12,54,06:41 AM,06:48 PM,No moonrise,08:50 AM,Waning Gibbous,61
+2025-03-19,24,16,61,19,31,161,SSE,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,20.4,0.8,87,7,4,1005,30,96,14,57,11,53,12,53,37,59,12,53
+2025-03-20,15,60,10,50,06:40 AM,06:49 PM,12:10 AM,09:25 AM,Waning Gibbous,54
+2025-03-20,24,15,60,15,23,205,SSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,37.2,1.5,80,10,5,1004,30,83,12,54,9,48,10,50,31,50,10,50
+2025-03-21,15,60,11,52,06:38 AM,06:50 PM,01:12 AM,10:07 AM,Last Quarter,47
+2025-03-21,24,15,60,17,27,239,WSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,17.2,0.7,82,10,6,1008,30,85,13,55,10,50,11,51,33,53,11,51
+2025-03-22,13,56,10,50,06:36 AM,06:51 PM,02:09 AM,10:59 AM,Last Quarter,39
+2025-03-22,24,13,56,17,28,297,WNW,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,4.4,0.2,72,9,5,1015,30,88,11,52,6,43,8,47,34,54,8,47
+2025-03-23,13,55,9,48,06:35 AM,06:51 PM,03:02 AM,11:59 AM,Last Quarter,32
+2025-03-23,24,13,55,14,23,330,NNW,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,1.6,0.1,72,10,6,1014,30,72,11,52,6,43,8,47,25,40,8,47
+2025-03-24,14,57,10,49,06:33 AM,06:52 PM,03:48 AM,01:07 PM,Waning Crescent,25
+2025-03-24,24,14,57,12,20,339,NNW,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.3,0.0,71,10,6,1020,30,59,12,53,7,44,9,49,20,33,9,49
+2025-03-25,18,64,10,51,06:32 AM,06:53 PM,04:26 AM,02:19 PM,Waning Crescent,17
+2025-03-25,24,18,64,7,12,248,WSW,119,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,74,10,6,1022,30,32,13,56,9,47,12,54,16,25,12,54
+2025-03-26,17,63,10,51,06:30 AM,06:54 PM,04:59 AM,03:33 PM,Waning Crescent,10
+2025-03-26,24,17,63,5,9,223,SW,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,74,10,6,1022,30,15,13,56,9,48,13,55,13,20,13,55
+2025-03-27,17,62,10,50,06:29 AM,06:55 PM,05:28 AM,04:47 PM,Waning Crescent,3
+2025-03-27,24,17,62,6,10,331,NNW,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,77,10,6,1019,30,11,13,55,9,48,12,54,12,19,12,54
+2025-03-28,20,67,10,50,06:27 AM,06:56 PM,05:55 AM,06:02 PM,New Moon,0
+2025-03-28,24,20,67,7,11,236,SW,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,74,10,6,1020,30,3,14,57,9,48,13,56,15,23,13,56
+2025-03-29,21,70,10,51,06:26 AM,06:57 PM,06:20 AM,07:19 PM,New Moon,0
+2025-03-29,24,21,70,5,8,137,SE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,71,10,6,1021,30,0,15,60,10,50,15,59,12,19,15,59
+2025-03-30,22,71,11,52,06:24 AM,06:58 PM,06:48 AM,08:37 PM,Waxing Crescent,4
+2025-03-30,24,22,71,9,14,75,ENE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,61,10,6,1018,30,0,16,62,8,47,16,60,15,24,16,60
+2025-03-31,21,70,11,52,07:23 AM,07:59 PM,08:18 AM,10:57 PM,Waxing Crescent,8
+2025-03-31,24,21,70,8,12,132,SE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,67,10,6,1014,30,6,15,60,9,48,15,59,12,19,15,59
+2025-04-01,19,66,13,55,07:21 AM,08:00 PM,08:55 AM,No moonset,Waxing Crescent,19
+2025-04-01,24,19,66,7,11,171,S,299,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate rain at times,3.2,0.1,82,8,5,1009,30,62,15,60,12,54,15,60,11,18,15,60

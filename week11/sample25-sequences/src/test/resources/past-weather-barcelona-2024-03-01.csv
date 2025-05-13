@@ -1,0 +1,72 @@
+#The CSV format is in following way:-
+#The day information is available in following format:-
+#date,maxtempC,maxtempF,mintempC,mintempF,sunrise,sunset,moonrise,moonset,moon_phase,moon_illumination
+#
+#Hourly information follows below the day in the following way:-
+#date,time,tempC,tempF,windspeedMiles,windspeedKmph,winddirdegree,winddir16point,weatherCode,weatherIconUrl,weatherDesc,precipMM,precipInches,humidity,visibilityKm,visibilityMiles,pressureMB,pressureInches,cloudcover,HeatIndexC,HeatIndexF,DewPointC,DewPointF,WindChillC,WindChillF,WindGustMiles,WindGustKmph,FeelsLikeC,FeelsLikeF
+#
+Not Available
+2024-03-01,16,62,9,49,07:25 AM,06:42 PM,No moonrise,09:49 AM,Waning Gibbous,55
+2024-03-01,24,16,62,8,13,218,SW,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,4.3,0.2,54,10,6,1012,30,23,12,54,3,37,11,52,14,23,11,52
+2024-03-02,15,60,9,48,07:24 AM,06:43 PM,12:49 AM,10:17 AM,Last Quarter,47
+2024-03-02,24,15,60,11,18,253,WSW,116,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.3,0.0,58,10,6,1006,30,38,12,54,4,40,11,51,19,30,11,51
+2024-03-03,14,58,6,43,07:22 AM,06:45 PM,01:57 AM,10:54 AM,Last Quarter,40
+2024-03-03,24,14,58,13,22,274,W,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,14.2,0.6,61,9,5,1001,30,59,11,51,3,38,8,47,24,39,8,47
+2024-03-04,16,61,7,44,07:21 AM,06:46 PM,03:05 AM,11:40 AM,Last Quarter,33
+2024-03-04,24,16,61,8,13,269,W,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,47,10,6,1011,30,25,11,52,-0,32,10,49,16,26,10,49
+2024-03-05,16,60,9,48,07:19 AM,06:47 PM,04:08 AM,12:39 PM,Waning Crescent,25
+2024-03-05,24,16,60,5,9,190,S,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.4,0.0,58,10,6,1019,30,21,12,53,3,38,11,51,9,15,11,51
+2024-03-06,14,57,7,45,07:17 AM,06:48 PM,05:03 AM,01:50 PM,Waning Crescent,18
+2024-03-06,24,14,57,4,7,213,SSW,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,66,10,6,1022,30,7,11,51,5,42,10,50,8,13,10,50
+2024-03-07,14,57,8,46,07:16 AM,06:49 PM,05:49 AM,03:08 PM,Waning Crescent,11
+2024-03-07,24,14,57,6,10,79,E,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,73,10,6,1015,30,30,11,52,7,45,10,50,10,15,10,50
+2024-03-08,15,58,10,51,07:14 AM,06:50 PM,06:26 AM,04:30 PM,Waning Crescent,4
+2024-03-08,24,15,58,9,15,201,SSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,6.4,0.3,68,10,5,1006,30,63,13,55,7,44,11,52,15,25,11,52
+2024-03-09,13,55,10,49,07:13 AM,06:52 PM,06:57 AM,05:52 PM,New Moon,0
+2024-03-09,24,13,55,11,18,213,SSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,27.2,1.1,80,8,5,998,29,85,11,52,8,46,9,49,20,32,9,49
+2024-03-10,14,56,7,45,07:11 AM,06:53 PM,07:24 AM,07:12 PM,New Moon,0
+2024-03-10,24,14,56,11,17,264,W,119,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,1.2,0.0,61,10,6,998,29,42,11,51,4,39,9,48,18,29,9,48
+2024-03-11,16,62,8,47,07:09 AM,06:54 PM,07:49 AM,08:31 PM,Waxing Crescent,3
+2024-03-11,24,16,62,8,13,225,SW,119,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0003_white_cloud.png,Cloudy,0.0,0.0,61,10,6,1010,30,21,12,53,4,39,11,51,15,25,11,51
+2024-03-12,14,58,8,47,07:08 AM,06:55 PM,08:13 AM,09:50 PM,Waxing Crescent,11
+2024-03-12,24,14,58,4,7,159,SSE,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,67,10,6,1020,30,8,11,52,6,42,11,51,9,14,11,51
+2024-03-13,16,61,8,46,07:06 AM,06:56 PM,08:39 AM,11:08 PM,Waxing Crescent,18
+2024-03-13,24,16,61,6,10,258,WSW,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,64,10,6,1019,30,2,12,54,7,44,11,52,10,16,11,52
+2024-03-14,17,62,9,48,07:04 AM,06:57 PM,09:09 AM,No moonset,Waxing Crescent,25
+2024-03-14,24,17,62,7,11,238,WSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,69,10,6,1018,30,25,12,54,8,46,12,53,11,18,12,53
+2024-03-15,16,61,11,52,07:03 AM,06:58 PM,09:44 AM,12:25 AM,Waxing Crescent,32
+2024-03-15,24,16,61,5,7,162,SSE,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.6,0.0,74,10,6,1019,30,47,13,56,10,50,13,56,8,12,13,56
+2024-03-16,18,64,11,52,07:01 AM,06:59 PM,10:26 AM,01:38 AM,First Quarter,40
+2024-03-16,24,18,64,5,8,241,WSW,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,65,10,6,1023,30,15,15,58,9,49,14,58,9,14,14,58
+2024-03-17,20,68,12,54,06:59 AM,07:01 PM,11:17 AM,02:44 AM,First Quarter,47
+2024-03-17,24,20,68,6,10,237,WSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,65,10,6,1021,30,34,15,60,10,50,15,59,10,17,15,59
+2024-03-18,18,65,12,54,06:57 AM,07:02 PM,12:15 PM,03:40 AM,First Quarter,54
+2024-03-18,24,18,65,4,7,175,S,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,67,10,6,1018,30,9,15,59,10,51,15,59,8,13,15,59
+2024-03-19,19,66,13,55,06:56 AM,07:03 PM,01:18 PM,04:25 AM,First Quarter,62
+2024-03-19,24,19,66,4,7,162,SSE,116,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.0,0.0,69,10,6,1016,30,18,15,60,10,51,15,60,7,12,15,60
+2024-03-20,17,63,12,54,06:54 AM,07:04 PM,02:22 PM,05:02 AM,Waxing Gibbous,69
+2024-03-20,24,17,63,7,11,76,ENE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,73,10,6,1019,30,8,14,58,10,50,14,57,11,18,14,57
+2024-03-21,18,64,12,54,06:52 AM,07:05 PM,03:27 PM,05:31 AM,Waxing Gibbous,76
+2024-03-21,24,18,64,6,10,102,ESE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,68,10,6,1023,30,8,15,59,10,50,15,59,10,16,15,59
+2024-03-22,21,70,13,56,06:51 AM,07:06 PM,04:29 PM,05:55 AM,Waxing Gibbous,83
+2024-03-22,24,21,70,4,7,168,SSE,113,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0001_sunny.png,Sunny,0.0,0.0,65,10,6,1020,30,8,16,62,10,51,16,62,9,14,16,62
+2024-03-23,19,66,12,54,06:49 AM,07:07 PM,05:31 PM,06:16 AM,Waxing Gibbous,91
+2024-03-23,24,19,66,5,9,189,S,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,72,10,6,1019,30,22,15,59,11,51,15,59,10,17,15,59
+2024-03-24,14,58,13,55,06:47 AM,07:08 PM,06:31 PM,06:35 AM,Waxing Gibbous,98
+2024-03-24,24,14,58,8,13,177,S,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.5,0.0,79,10,6,1017,30,71,13,56,10,49,12,54,12,19,12,54
+2024-03-25,14,57,11,52,06:45 AM,07:09 PM,07:32 PM,06:53 AM,Full Moon,100
+2024-03-25,24,14,57,6,10,126,SE,305,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Heavy rain at times,5.5,0.2,77,10,6,1004,30,76,13,55,9,48,12,53,10,17,12,53
+2024-03-26,16,61,12,53,06:44 AM,07:11 PM,08:32 PM,07:12 AM,Waxing Gibbous,88
+2024-03-26,24,16,61,8,13,213,SSW,356,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Moderate or heavy rain shower,8.1,0.3,64,9,5,992,29,72,13,56,6,43,12,54,13,21,12,54
+2024-03-27,15,60,7,44,06:42 AM,07:12 PM,09:36 PM,07:31 AM,Waning Gibbous,80
+2024-03-27,24,15,60,13,20,260,W,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.1,0.0,55,10,6,996,29,26,12,53,3,38,10,50,20,32,10,50
+2024-03-28,18,65,13,55,06:40 AM,07:13 PM,10:41 PM,07:53 AM,Waning Gibbous,73
+2024-03-28,24,18,65,16,26,241,WSW,116,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png,Partly cloudy,0.1,0.0,60,10,6,1001,30,37,15,60,7,45,15,58,27,43,15,58
+2024-03-29,17,63,13,55,06:39 AM,07:14 PM,11:48 PM,08:20 AM,Waning Gibbous,66
+2024-03-29,24,17,63,7,11,205,SSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,0.0,0.0,76,10,6,1001,30,41,15,59,11,52,15,59,12,20,15,59
+2024-03-30,15,59,11,51,06:37 AM,07:15 PM,No moonrise,08:53 AM,Waning Gibbous,58
+2024-03-30,24,15,59,10,16,242,WSW,122,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0004_black_low_cloud.png,Overcast,2.8,0.1,64,10,6,998,29,53,13,56,6,44,12,54,15,25,12,54
+2024-03-31,14,58,11,52,06:35 AM,07:16 PM,12:55 AM,09:35 AM,Waning Gibbous,55
+2024-03-31,24,14,58,12,19,226,SW,305,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0010_heavy_rain_showers.png,Heavy rain at times,16.1,0.6,78,9,5,997,29,80,13,55,9,47,11,51,22,35,11,51
+2024-04-01,17,62,9,47,07:34 AM,08:17 PM,02:59 AM,11:28 AM,Last Quarter,38
+2024-04-01,24,17,62,12,19,267,W,176,https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0009_light_rain_showers.png,Patchy rain possible,0.2,0.0,54,10,6,1009,30,12,13,55,4,39,12,53,19,31,12,53
