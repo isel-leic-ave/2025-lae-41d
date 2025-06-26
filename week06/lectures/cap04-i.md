@@ -54,8 +54,8 @@
        - leitura ou escrita de ficheiros,
        - acesso (leitura ou escrita) à base de dados.
    - Operações de _print_ podem ser substituídas pelo uso de um _StringBuilder_, por exemplo.
-     - Ou simplesmente apenas associar o resultado da operação a uma constante ou variável.
-   - Operações de _input_ podem ser substituídas pela afetação direta de uma constante ou constante.
+     - Ou simplesmente apenas associar o resultado da operação a uma constante ou variável e retornar seu valor.
+   - Operações de _input_ podem ser substituídas pela afetação direta de uma constante ou variável.
    - No caso de acesso a ficheiros ou base de dados, pode-se substituir o acesso por um `mock` em memória.
    - Um potencial problema que pode acontecer com essas abordagens é a eliminação de _dead-code_.
      - Processos de otimização de código da JVM podem eliminar código quando eles não são usados.
@@ -134,7 +134,7 @@
       id("me.champeau.jmh") version "0.7.3"
     }
     ```
-
+: Long 
 - Compilação com o Gradle a partir da raiz do projeto:
   ```bash
   ./gradlew jmhJar
